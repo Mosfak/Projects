@@ -1,0 +1,135 @@
+ #imag{
+    float:left;
+    width:40%;
+}
+.menubar ul{
+    list-style: none;
+    width:20%;  
+    padding:0;
+    height:500;
+    
+}
+
+.menubar li a{
+    text-decoration:none;
+    display:block;
+    padding:52px;
+    font-family: sans-serif;
+    font-weight:800;
+    font-size:18;
+    color:whitesmoke;
+    border-bottom:1px solid;
+    text-align: center;
+    background-image: linear-gradient(to right top, #310537, #590c60, #86118c, #b714b9, #eb12e7);
+
+}
+.menubar li a:hover{
+    font-size:23px;
+    background-color:#fb7dff;
+}
+.navbar{
+    border:1px solid red;
+    padding-bottom:10px;
+}
+
+.navbar ul{
+    float:right;
+    padding:0px;
+    
+}
+.navbar li{
+    list-style:none;
+    display:inline-block;
+    padding:10px;
+    text-align: center;
+    border-right:1px solid blue;
+    padding-bottom: 30px;
+    
+    
+}
+.navbar li a{
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size:25px;
+    font-weight:600;
+    padding-right:30px;
+    padding-left:30px;
+    
+    
+}
+.navbar li a:hover{
+    font-size:27px;
+    background-color: skyblue;
+}
+
+.footer{
+    background-color:black;
+    color:white;
+    padding-bottom: 210px;
+    padding-top:0px;
+    
+}
+.footer .contact{
+    text-align: center;
+    font-size:30px;
+}
+ .footright{
+    float:right;
+    width:40%;
+    font-size:18px;
+}
+.footleft{
+    float:left;
+    width:50%;
+    font-size:18px;
+    border-right:1px solid red;
+    
+}
+.contact hr,h3{
+    margin:0;
+    padding:0;
+    
+}
+.contact hr{
+    width:210px;
+    margin-bottom:25px;
+    
+}
+.frame{
+    float: right;
+    width:80%;
+    height:500px;
+}
+.head{
+    border: 1px solid black;
+    padding-bottom: 170px;
+    background-color:#05012e;
+}
+
+.menutable tr td{
+    padding:0;
+    border: 1px solid white;
+    border-width: 20px;
+    background-image: linear-gradient(to right top, #310537, #590c60, #86118c, #b714b9, #eb12e7);
+    
+}
+.menutable tr td a{
+    text-decoration: none;
+    display: block;
+    font-size: 25px;
+    padding:100px;
+    color:white;
+    font-family: sans-serif;
+}
+
+.menutable tr td a:hover{
+    font-size: 27px;
+    background-image: linear-gradient(to right top, #310537, #48005c, #5a0087, #6600b6, #6712eb);
+}
+
+.menutable{
+    margin: auto;
+    padding:30px;
+    width: 400px;
+    height: 200px;  
+}

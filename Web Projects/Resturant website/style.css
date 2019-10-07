@@ -1,0 +1,142 @@
+*{margin:0;padding:0}
+body{font-family:Cursive;}
+.fix{overflow:hidden}
+.main{
+    width:1500px;;
+    margin:5px auto;
+    display:block;
+   
+    
+    
+}
+.header{
+    background-color:#ff3b3b; padding:30px;
+}
+.logo{float:left;color: black;}
+.menu{float:right;}
+.menu ul{margin-top:15px;}
+.menu ul li{
+    float:left;
+    list-style:none;     
+}
+.menu ul li a{ 
+    text-decoration: none; font-weight: 700;
+    padding: 20px 25px;
+    font-size: 24px;
+    border-right:1px solid #faf68c;
+    display:inline-block;
+    color: black;
+   
+}
+.menu ul li a:hover{
+    
+    transform: translateY(-10px);
+    text-shadow: 7px 7px 12px;
+    background-color: ; color:black;
+}
+.slider{
+}
+
+.menuitem{background-color:black;}
+.menuitem .container{}
+.menuitem .container .item{
+    background-color:blue;
+    height: 400px;
+    width: 400px;
+    margin: 50px;
+    float:left;
+    border-radius: 15px;
+    
+   
+    
+}
+.menuitem .container .item:hover{
+     box-shadow: 15px 30px 20px white;
+    
+    transition: all .3s;
+    transform: translateY(-50px);
+}
+.item1 {background:url("img/b.jpg")}
+
+.item2{background:url("img/p.jpg")}
+.item3{background:url("img/c.jpg");}
+.item4{background:url("img/r.jpg")}
+.item5{background:url("img/pa.jpg")}
+.item6{background:url("img/t.jpg")}
+.kitchen{
+    background:url("img/kitchen.jpg") fixed no-repeat;
+    border-top:200px  solid black;
+    border-bottom:200px  solid black;
+}
+.kitchen .text{
+    color:white; 
+    font-size:22px;
+    line-height: 50px;
+    margin-left:50px;
+}
+.kitchen h1{
+    color:yellow;
+    margin-top:15px;
+    font-weight: 900;
+    
+    
+}
+.interior{background-color: #744011}
+.interior .image{float:right}
+.interior .image img{
+    height: 550px;
+    width:1000px;
+    
+}
+.interior .text{
+    float:left;
+    font-size:22px;
+    line-height: 50px;
+    margin-left:50px;
+}
+
+.interior h1{
+    color:yellow;
+    margin-top:15px;
+    font-weight: 900;
+    
+    
+}
+
+.about{}
+.footer{
+    background-color:black;
+    color:white;
+    
+}
+.footer .contacts{
+    text-align: center;
+}
+.social{
+    float:left;
+    margin:140px;
+    margin-bottom:30px;
+    padding:20px;
+    border:1px solid blue;
+}
+
+.seat{
+    float:left;
+    width:30%;
+    margin-top:50px;
+    margin-left:20px;
+    
+}
+
+.seat h2{color:red;margin-bottom:20px;}
+.map {
+    float:right;
+    margin-top:20px;
+}
+.map{}
+.cpyright{
+	background-color:black;
+	color:white;
+	text-align:center;
+	
+}
